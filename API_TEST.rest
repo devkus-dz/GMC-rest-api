@@ -1,0 +1,30 @@
+@hostName = http://localhost:5000/api/users
+@id = DOCUMENT_ID
+
+### post resquest
+POST {{hostName}}
+Content-Type: application/json
+
+{
+    "firstName":"John",
+    "lastName" : "Doe",
+    "email": "mj.doe@loaclhost.local",
+    "age": "99"
+}
+
+### Get request
+GET {{hostName}}
+
+### put request
+PUT {{hostName}}/{{id}}
+Content-Type: application/json
+
+{
+    "firstName" : "Boualem",
+    "lastName" : "Titich",
+    "email": "b.titich@loaclhost.local",
+    "age" : "70"
+}
+
+### delete request
+DELETE {{hostName}}/{{id}}
