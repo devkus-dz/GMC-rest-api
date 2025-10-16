@@ -76,16 +76,16 @@ Example REST Client file (API_TEST.rest)
 
 ### Create
 
-![post request](/screenshots/post.jpg)
+![post request](./screenshots/post.JPG)
 
 ### read
 
-![get request](/screenshots/get.jpg)
+![get request](./screenshots/get.JPG)
 
 ### Update
 
-![put request](/screenshots/put.jpg)
+![put request](./screenshots/put.JPG)
 
 ### Delete
 
-![delete request](/screenshots/delete.jpg)
+![delete request](./screenshots/delete.JPG)
